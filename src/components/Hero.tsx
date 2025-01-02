@@ -63,7 +63,7 @@ const Hero = () => {
 						<motion.p
 							whileTap={{ scale: 0.95 }}
 							whileHover={{ scale: 1.05 }}
-							className="inline-block bg-blue-500 hover:bg-blue-600 font-medium px-6 py-3 rounded-lg text-white"
+							className="inline-block bg-blue-500 hover:bg-blue-600 font-medium px-6 py-3 rounded-lg text-white mb-4"
 						>
 							{HERO_CONTENT.callToAction.primary}
 						</motion.p>

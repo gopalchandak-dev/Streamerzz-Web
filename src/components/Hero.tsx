@@ -57,7 +57,7 @@ const Hero = () => {
 					variants={fadeInUpVariants}
 					initial="hidden"
 					animate="visible"
-					className="mt-6 space-x-4"
+					className="mt-6 space-x-1"
 				>
 					<Link to="hero" smooth={true} duration={500} offset={-40}>
 						<motion.p

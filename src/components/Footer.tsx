@@ -33,13 +33,13 @@ const Footer = () => {
 					<div className="flex justify-between">
 						<motion.p
 							whileHover={{ scale: 1.02 }}
-							className="text-sm"
+							className="text-sm hover:text-white "
 						>
 							{FOOTER_CONTENT.platformsText}
 						</motion.p>
 						<motion.p
 							whileHover={{ scale: 1.02 }}
-							className="text-sm"
+							className="text-sm hover:text-white "
 						>
 							{FOOTER_CONTENT.copyrightText}
 						</motion.p>
